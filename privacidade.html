@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ML Connect — Política de Privacidade</title>
+<style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1b2330}h1{font-size:28px}h2{font-size:19px;margin-top:28px}small{color:#5b6576}</style></head>
+<body>
+<h1>ML Connect — Política de Privacidade</h1>
+<small>Última atualização: 18 de novembro de 2026 · Desenvolvedor: mlopes dev (Mlopesdesign)</small>
+
+<h2>1. O que é o ML Connect</h2>
+<p>O ML Connect é um aplicativo de acesso remoto entre os aparelhos do próprio usuário (computadores Windows com o ML CONNECT e celulares Android). Ele permite ver e comandar a tela, assistir à câmera ao vivo e controlar gravações no próprio aparelho.</p>
+
+<h2>2. Dados que NÃO coletamos</h2>
+<p>Não pedimos cadastro, nome, e-mail ou telefone. Não exibimos anúncios. Não vendemos nem compartilhamos dados com terceiros. Não armazenamos em servidor imagens, vídeos, telas, teclas, toques ou gravações.</p>
+
+<h2>3. Dados tratados durante a conexão</h2>
+<ul>
+<li><b>Imagem da tela ou da câmera e comandos (toques, teclas):</b> trafegam entre os aparelhos do próprio usuário somente durante uma sessão remota autenticada por senha. Passam criptografados (TLS) por um servidor de retransmissão do desenvolvedor, que apenas encaminha os pacotes, sem gravá-los.</li>
+<li><b>ID de acesso (MLC-XXXX-XXXX-XXXX):</b> identificador aleatório gerado no aparelho, usado só para encaminhar a conexão. Não está ligado à identidade do usuário. O servidor mantém registros técnicos mínimos (ID, horário de conexão, erros) para funcionamento e segurança, apagados periodicamente.</li>
+<li><b>Senha de acesso:</b> definida pelo dono no aparelho e guardada só nele, cifrada (Android Keystore). A senha nunca é enviada pela rede: a conexão é aprovada por uma prova criptográfica derivada dela.</li>
+<li><b>Gravações:</b> vídeos e time-lapses ficam salvos apenas no próprio celular (pasta Movies/ML Connect Cam) e só saem dele se o usuário os copiar.</li>
+</ul>
+
+<h2>4. Permissões usadas</h2>
+<ul>
+<li><b>Câmera:</b> transmitir e gravar no modo Câmera, por comando do dono.</li>
+<li><b>Captura de tela (MediaProjection):</b> enviar a tela ao computador do dono durante a sessão; o Android mostra o aviso de captura.</li>
+<li><b>Serviço de Acessibilidade:</b> executar no aparelho os toques e gestos enviados remotamente pelo dono autenticado. Não é usado para ler, coletar ou compartilhar conteúdo da tela ou de outros apps.</li>
+<li><b>Notificações, execução em segundo plano e início junto com o aparelho:</b> manter o acesso disponível com a notificação fixa do ML Connect.</li>
+</ul>
+
+<h2>5. Segurança</h2>
+<p>Conexões criptografadas (TLS), senha nunca transmitida, bloqueio após 5 tentativas erradas e avisos visíveis do Android enquanto houver sessão.</p>
+
+<h2>6. Crianças</h2>
+<p>O ML Connect é destinado a maiores de 18 anos e não é direcionado a crianças.</p>
+
+<h2>7. Seus direitos e exclusão</h2>
+<p>Não mantemos dados pessoais em servidor. Para apagar tudo do aparelho, basta desinstalar o app. Dúvidas ou pedidos (LGPD): mlopesdesign@gmail.com.</p>
+
+<h2>8. Alterações</h2>
+<p>Esta política pode ser atualizada; a data no topo indica a versão vigente.</p>
+</body></html>
